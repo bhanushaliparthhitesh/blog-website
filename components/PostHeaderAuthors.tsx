@@ -1,7 +1,13 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+<<<<<<< HEAD
 import { sanitizeAuthorSlug } from "../utils/sanitizeAuthorSlug";
+=======
+import { useRouter } from "next/router";
+import { FaLinkedin, FaTwitter, FaLink } from "react-icons/fa";
+import { sanitizeAuthorSlug } from "../utils/sanitizeAuthorSlug"; 
+>>>>>>> ab0980d (Fix: stabilize author slugs and author pages  (#203))
 
 const PostHeaderAuthors = ({ blogwriter, blogreviewer, timetoRead }) => {
   const sameAuthor =
